@@ -83,7 +83,7 @@ button {
   height: 32px;
   margin-bottom: 20px;
   left: 92px;
-  background-color: rgb(250, 187, 71);
+  background-color: rgb(250, 162, 29);
   border: none;
   border-radius: 3px;
   font-size: 15px;
@@ -92,7 +92,7 @@ button {
 a {
   font-size: 18px;
   margin-right: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 button:hover {
