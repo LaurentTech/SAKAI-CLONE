@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-section {
+  display: grid;
+  justify-content: center;
+  border: 0.5px solid white;
+  position: relative;
+  top: 120px;
+  width: 406px;
+  height: 384.69px;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1), -3px -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 30px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(56, 56, 143);
+}
+
+.ug-logo {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(56, 56, 143);
+}
+
+label {
+  font-weight: bold;
+  margin-right: 50px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.id,
+.id1 {
+  margin-bottom: 25px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.id {
+  margin-left: 22px;
+}
+
+.pass,
+.id1 {
+  margin-left: 30px;
+}
+
+#login-container {
+  position: relative;
+  left: 220px;
+}
+
+button {
+  position: relative;
+  width: 70px;
+  height: 32px;
+  margin-bottom: 20px;
+  left: 92px;
+  background-color: rgb(250, 187, 71);
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+a {
+  font-size: 18px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(185, 141, 59);
+}
+
+button:active {
+  border: 5px solid rgb(182, 177, 253);
+}
