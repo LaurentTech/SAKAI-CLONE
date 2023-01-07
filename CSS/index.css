@@ -19,7 +19,7 @@ body {
   width: 406px;
   height: 384.69px;
   background-color: white;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1), -3px -3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -92,7 +92,7 @@ button {
 a {
   font-size: 18px;
   margin-right: 10px;
-  opacity: 0.9;
+  color: rgb(93, 93, 252);
 }
 
 button:hover {
