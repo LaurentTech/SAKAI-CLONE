@@ -33,14 +33,14 @@ h1 {
   margin-top: 35px;
   font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(56, 56, 143);
+  color: #28396e;
 }
 
 .ug-logo {
   display: flex;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(56, 56, 143);
+  color: #28396e;
 }
 
 label {
@@ -85,7 +85,7 @@ button {
   position: relative;
   width: 70px;
   height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   left: 92px;
   background-color: #ffc300;
   border: none;
