@@ -44,11 +44,13 @@ h1 {
 }
 
 label {
+  position: relative;
   font-weight: bold;
   margin-right: 50px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  right: 25px;
 }
 
 .id,
@@ -57,10 +59,12 @@ label {
 }
 
 input {
-  width: 200px;
+  position: relative;
+  width: 210px;
   height: 30px;
   border-radius: 5px;
-  border-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  right: 30px;
 }
 
 .id {
