@@ -10,7 +10,8 @@ nav {
   position: fixed;
   width: 100%;
   height: 50px;
-  box-shadow: 0px 0.5px 5px #e7ba24;
+  box-shadow: 0px 1px 5px rgba(240, 137, 137, 0.19),
+    0px 2px 5px rgba(240, 137, 137, 0.19);
   z-index: 2;
   background-color: white;
 }
@@ -20,7 +21,6 @@ img {
   height: 31px;
   margin-right: 10px;
 }
-
 .ug-logo {
   display: flex;
   margin-left: 30px;
@@ -93,7 +93,7 @@ header {
   display: inline-flex;
 }
 
-hr {
+.vertical {
   rotate: 90deg;
   position: relative;
   right: 450px;
@@ -109,7 +109,7 @@ aside {
 
 .container-under-sidebar {
   position: fixed;
-  width: 225px;
+  width: 16.7%;
   height: 60px;
   background-color: #0f2a7c;
   top: 570px;
@@ -164,17 +164,18 @@ i {
 .side:hover {
   background-color: white;
   color: #ffae00;
+  cursor: pointer;
 }
 
 .side:active {
   background-color: #ffae00;
   color: #28396e;
 }
-i:active {
+.side i:active {
   color: #0f2a7c;
 }
 
-i:hover {
+.side i:hover {
   color: #ffae00;
 }
 
@@ -223,7 +224,7 @@ header p {
 }
 
 .home {
-  width: 120px;
+  width: 110px;
   border: 1px solid #0f2a7c;
   height: 30px;
 }
@@ -231,12 +232,12 @@ header p {
 .course2,
 .course3,
 .course4 {
-  width: 230px;
+  width: 200px;
 }
 
 .home,
 .course6 {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 header i {
@@ -245,7 +246,7 @@ header i {
 }
 .course6 {
   border: 1px solid #0f2a7c;
-  width: 210px;
+  width: 190px;
   height: 30px;
 }
 
@@ -253,6 +254,8 @@ header div:hover {
   background-color: #e4b143c5;
   color: white;
   cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 5px 0 #e4b143c5, -1px -1px 5px 0 #e4b143c5;
 }
 
 header i:hover {
@@ -262,4 +265,165 @@ header i:hover {
 header div:active {
   color: #0f2a7c;
   background-color: #ffae00;
+}
+.course5 {
+  width: 200px;
+}
+
+.course1 {
+  width: 200px;
+}
+
+.course4 {
+  width: 200px;
+}
+
+.left-container {
+  position: absolute;
+  width: 545px;
+  height: 700px;
+  background-color: white;
+  border: 1px solid gray;
+  right: 270px;
+}
+
+.right-container-btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f2a7c;
+  height: 70px;
+}
+
+.right-btns {
+  display: flex;
+  margin-top: 20px;
+}
+.h2 {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: white;
+}
+.link1,
+.link2 {
+  border: 1px solid white;
+  width: 80px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background-color: #ffc300;
+}
+
+.enter {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  margin-right: 15px;
+  border-radius: 3px;
+  background-color: #ffc300;
+  color: white;
+}
+
+button {
+  height: 30px;
+  padding: 5px;
+  position: relative;
+  left: 20px;
+  top: 1px;
+  border-bottom: none;
+  border: 1px solid rgb(201, 190, 190);
+}
+
+.options {
+  position: relative;
+  top: 25px;
+}
+
+.option-horizon {
+  width: 95%;
+  position: relative;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+small {
+  font-size: 15px;
+  text-align: center;
+}
+
+.link-small {
+  position: absolute;
+  top: 24px;
+  margin-top: 5px;
+  left: 355px;
+}
+
+.enter i {
+  position: relative;
+  right: 10px;
+  color: white;
+}
+.right-container {
+  position: absolute;
+  width: 545px;
+  height: 1175px;
+  background-color: orange;
+  margin-left: 30px;
+}
+
+.top {
+  width: 400px;
+  height: 100px;
+  background-color: green;
+}
+
+.middle {
+  width: 400px;
+  height: 100px;
+  background-color: orangered;
+}
+
+.bottom {
+  width: 400px;
+  height: 100px;
+  background-color: black;
+}
+
+.right-items {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  background-color: white;
+  top: 200px;
+  left: 1050px;
+}
+
+.overview {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  right: 685px;
+}
+.right-items i {
+  color: #0f2a7c;
+  font-size: 18px;
+}
+
+.right-items p {
+  font-size: 18px;
+  color: #0f2a7c;
+  font-weight: bold;
+}
+
+.right-items p:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+}
+
+footer {
+  height: 100px;
+  /* background-color: blueviolet; */
+  width: 83.3%;
+  position: absolute;
+  left: 225px;
+  top: 1400px;
 }
