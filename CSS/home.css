@@ -64,7 +64,7 @@ b {
   border-radius: 50%;
 }
 
-a:hover {
+.icons a:hover {
   position: relative;
   background-color: gray;
   border-radius: 50%;
@@ -151,7 +151,7 @@ i {
   font-family: "Courier New", Courier, monospace;
 }
 
-p {
+.side p {
   font-size: 17px;
   margin-top: 5px;
   margin-left: 10px;
@@ -281,13 +281,13 @@ header div:active {
 .left-container {
   position: absolute;
   width: 545px;
-  height: 700px;
+  height: 720px;
   background-color: white;
   border: 1px solid gray;
   right: 270px;
 }
 
-.right-container-btn {
+.top-left-header {
   display: flex;
   justify-content: space-between;
   background-color: #0f2a7c;
@@ -343,6 +343,7 @@ button {
   position: relative;
   left: 10px;
   background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.3;
 }
 small {
   font-size: 15px;
@@ -400,20 +401,22 @@ small {
   display: flex;
   position: absolute;
   bottom: 15px;
-  right: 685px;
+  right: 687px;
 }
 .right-items i {
   color: #0f2a7c;
   font-size: 18px;
 }
 
-.right-items p {
+.overview p {
   font-size: 18px;
   color: #0f2a7c;
   font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
-.right-items p:hover {
+.overview p:hover {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   cursor: pointer;
@@ -426,4 +429,112 @@ footer {
   position: absolute;
   left: 225px;
   top: 1400px;
+}
+
+.plagy-check {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.plagy-check p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#red {
+  color: rgba(255, 0, 0, 0.7);
+  margin-left: 10px;
+}
+
+#green {
+  color: rgba(3, 189, 3, 0.5);
+  margin-left: 10px;
+}
+
+.message {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+.message .first-p {
+  margin-top: 20px;
+}
+
+.message p {
+  font-size: 14px;
+}
+.message p,
+h1,
+.info,
+h4,
+strong em {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.info {
+  margin: 15px 0px 5px 0px;
+}
+
+.contact-info {
+  font-size: 15px;
+  margin: 20px 0px 10px 0px;
+}
+
+strong em {
+  font-size: 13px;
+}
+
+.bottom-icons {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 50px;
+}
+
+.faculty,
+.student-guide,
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom-icons .fa-graduation-cap {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.faq img {
+  width: 100px;
+  height: 100px;
+  margin-right: 90px;
+}
+
+.faq small {
+  margin-right: 50px;
+}
+.bottom-icons .fa-landmark {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.bottom-icons small {
+  font-size: 13px;
+  font-weight: bolder;
+  color: #28396e;
+}
+
+.faculty small,
+.student-guide {
+  margin-left: 10px;
 }
